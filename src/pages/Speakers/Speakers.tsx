@@ -19,23 +19,23 @@ export function SpeakersPage() {
             <VikingBanner header="Call for Speakers" subHeader="Speak at JavaZone 2022" />
             <Section color="pink" header={<h1>About JavaZone</h1>}>
                 <p>
-                    JavaZone 2022 will be the 20th physical JavaZone conference and will consist of a day of pre-conference workshop, followed by two days of lightning talks and presentations in December.
+                    JavaZone 2022 will be the 20th physical JavaZone conference and will consist of a day of pre-conference workshop, followed by two days of lightning talks and presentations in September.
                 </p>
                 <p>
-                    JavaZone 2019 was completely sold out, with more than 3200 attendees enjoying 127 sessions. For JavaZone VR, we expect several hundret participants.
+                    JavaZone is typically sold out, with more than 3200 attendees enjoying well over 100 sessions.
                 </p>
                 <p>
-                    JavaZone hosts both international and Norwegian speakers. We'd love to have you join us the coming December!
+                    JavaZone hosts both international and Norwegian speakers. We'd love to have you join us the coming September!
                 </p>
                 <p>
-                    Our call for speakers is open from <b style={{textDecoration: "underline"}}>February 1st</b> until <b style={{textDecoration: "underline"}}>August 15th</b>.
+                    Our call for speakers is open from <b style={{textDecoration: "underline"}}>March 8th</b> until <b style={{textDecoration: "underline"}}>April 30th</b>.
                 </p>
                 <Link external color="pink" url="https://talks.javazone.no">Submit your talk!</Link>
             </Section>
             <ImageSection bottom imageName="2018/180912_JavaZone_0039" />
             <Section color="pink" header={<h1>What is it like speaking at JavaZone?</h1>}>
                 <p>
-                    Over the last decade JavaZone has grown to become one of the most important Java events in Europe! You can see for yourself – over 1300 videos from previous years talks are available for free at <InlineLink color="pink" external url='https://vimeo.com/javazone'>Vimeo</InlineLink>, and the <InlineLink color="pink" external url='https://2019.javazone.no/program'>full program from JavaZone 2019</InlineLink> is also available.
+                    Over the last decade JavaZone has grown to become one of the most important Java events in Europe! You can see for yourself – over 1500 videos from previous years talks are available for free at <InlineLink color="pink" external url='https://vimeo.com/javazone'>Vimeo</InlineLink>, and the <InlineLink color="pink" external url='https://2021.javazone.no/program'>full program from JavaZone 2021</InlineLink> is also available.
                 </p>
                 <p>
                     We can brag as much as we want, but JavaZone would be nothing without all the great speakers! That's why we need your help to make sure that JavaZone 2022 will be at least as awesome as the earlier events. If you think you have something interesting to share, please submit your talk or workshop.
@@ -68,7 +68,7 @@ export function SpeakersPage() {
             </Section>
             <Section color="pink" header={<h1>Ongoing Evaluation of Talks</h1>}>
                 <p>
-                    Each year we receive hundreds of submissions and we consider each submission as it arrives. Due to a large number of submissions, we can however not guarantee that you will hear from us immediately. We do however answer all submissions and try to do so no later than in September.
+                    Each year we receive hundreds of submissions and we consider each submission as it arrives. Due to a large number of submissions, we can not guarantee that you will hear from us immediately. We do however answer all submissions and will do so no later than end of June.
                 </p>
                 <p>
                     Our advice to you is simple. <strong>Submit early!</strong> The earlier you submit, the more likely you are to be noticed. Avoid drowning in the end-of-Call for Speakers-tsunami!
@@ -81,7 +81,7 @@ export function SpeakersPage() {
             <Section color="pink" header={<h1>What’s in it for me?</h1>}>
                 <h3>Accepted presentations, lightning talks, and workshops</h3>
                 <p>
-                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on December 7th.
+                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on December 6th.
                 </p>
                 <h3>Coverage of Expenses</h3>
                 <p>
