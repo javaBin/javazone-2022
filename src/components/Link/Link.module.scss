@@ -1,0 +1,55 @@
+@import '../../variables.scss';
+
+.colorPink{
+    border: 2px solid $color-logo-pink;
+    color: $color-logo-pink;
+    &:hover {
+        background: $color-logo-pink-dark;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.colorBlue{
+    border: 2px solid $color-logo-blue;
+    color: $color-logo-blue;
+    &:hover {
+        background: $color-logo-blue-dark;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.colorGreen{
+    border: 2px solid $color-logo-green;
+    color: $color-logo-green;
+    &:hover {
+        background: $color-logo-green-dark;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.colorWhite{
+    border: 2px solid white;
+    color: white;
+    &:hover {
+        text-decoration: none;
+        background: white;
+        color: black
+    }
+}
+
+.link {
+    width: fit-content;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; 
+}
