@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2059811e.css",
-    "main.js": "/static/js/main.4175697a.js",
+    "main.js": "/static/js/main.3b5b2cb0.js",
     "static/media/LunatixLightRegular.otf": "/static/media/LunatixLightRegular.7f09c0907c91f51c82d1.otf",
     "index.html": "/index.html",
     "main.2059811e.css.map": "/static/css/main.2059811e.css.map",
-    "main.4175697a.js.map": "/static/js/main.4175697a.js.map"
+    "main.3b5b2cb0.js.map": "/static/js/main.3b5b2cb0.js.map"
   },
   "entrypoints": [
     "static/css/main.2059811e.css",
-    "static/js/main.4175697a.js"
+    "static/js/main.3b5b2cb0.js"
   ]
 }
