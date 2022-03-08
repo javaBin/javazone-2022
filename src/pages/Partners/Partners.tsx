@@ -6,6 +6,10 @@ import {ImageSection} from '../../components/ImageSection/ImageSection';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
 import VideoSource from '../../components/Jumbotron/VideoSource';
 import {useCanPlayVideoType} from '../../core/hooks/UseCanPlayVideoType';
+import Link from "../../components/Link/Link";
+import {Figure} from "../../components/Figure/Figure";
+import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
+import {PartnerPrice, PartnerPriceList} from "../../components/PartnerPrices/PartnerPrices";
 
 export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
@@ -20,6 +24,9 @@ export function PartnersPage() {
             <Section color="blue" header={<h1>Last four years: Completely. Sold. Out.</h1>}>
                 <p>
                     In 2019, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
+                </p>
+                <p>
+                    Despite the difficulties with JavaZone 2021, we hope that we can arrange a JavaZone with no limitations this year, and that we can meet up in Oslo Spektrum in September for the best JavaZone ever! If you signed up for a JavaZone partnership in 2021, you should have received an email regarding the next steps for confirming your partnership for this year. <Link color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">You can also sign up here</Link>
                 </p>
             </Section>
             <Section color="blue" header={<h1>Registration</h1>}>
@@ -88,10 +95,38 @@ export function PartnersPage() {
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
                 </ul>
             </Section>
-            <ImageSection imageName="2018/180912_JavaZone_0158" />
+            <Figure name="ragnar"/>
+            <CenterSection color="blue" header={<h1>Partnership prices</h1>}>
+                <TicketPrice soldOut>82.000</TicketPrice>
+                <p>
+                    <i>Note that all 50+ partnerships for JavaZone 2019 were sold out long before the conference.</i>
+                </p>
+                <p>
+                    All partnerships have a base price for entry which gives you everything described above.
+                    We also have some add-ons, as well as tickets for your employees, priced below.
+                </p>
+            </CenterSection>
+            <Section color="blue" header={<h1>Partnership stand</h1>}>
+                <PartnerPriceList>
+                    <PartnerPrice item="Extra Stand Space">45.000</PartnerPrice>
+                    <PartnerPrice item="Restaurant Stand">73.000</PartnerPrice>
+                    <PartnerPrice item="Concept Stand">68.000</PartnerPrice>
+                </PartnerPriceList>
+            </Section>
+            <Section color="blue" header={<h1>Partnership ticket</h1>}>
+                <PartnerPriceList>
+                    <PartnerPrice item="Tickets for employees (1 - 30)">7.190</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (31 - 50)">6.990</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (51 - ∞)">6.790</PartnerPrice>
+                    <PartnerPrice
+                        item="Tickets for employees (Partner Late-Bird - After July 30th, 2022)">7.890</PartnerPrice>
+                </PartnerPriceList>
+            </Section>
+            <ImageSection imageName="2018/180912_JavaZone_0158"/>
             <CenterSection color="blue" header={<h1>Contact us</h1>}>
                 <p>You can contact us about partnership details at <InlineLink color="blue" external url="mailto:partner@java.no">partner@java.no</InlineLink></p>
             </CenterSection>
+
         </>
     )
 }
