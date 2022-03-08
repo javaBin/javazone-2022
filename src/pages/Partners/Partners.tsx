@@ -22,6 +22,11 @@ export function PartnersPage() {
                     In 2019, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
                 </p>
             </Section>
+            <Section color="blue" header={<h1>Registration</h1>}>
+                <p>
+                Despite the difficulties with JavaZone 2021, we hope that we can arrange a JavaZone with no limitations this year, and that we can meet up in Oslo Spektrum in September for the best JavaZone ever! If you signed up for a JavaZone partnership in 2021, you should reveive an email regarding the next steps for confirming your partnership for this year. You can also sign up for partnership on this <a href="https://forms.gle/Nkpeghsaec1gyMLs5">Google form</a> (If you weren't a partner in 2020, please sign up using this form as well)
+                </p>
+            </Section>
             <Section color="blue" header={<h1>Our philosophy: Partners, not sponsors</h1>}>
                 <p>
                     We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2022! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
