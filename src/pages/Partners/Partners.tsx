@@ -115,7 +115,7 @@ export function PartnersPage() {
                     <PartnerPrice item="Tickets for employees (31 - 50)">6.990</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (51 - ∞)">6.790</PartnerPrice>
                     <PartnerPrice
-                        item="Tickets for employees (Partner Late-Bird - After July 30th, 2022)">7.890</PartnerPrice>
+                        item="Tickets for employees (Partner Late-Bird - After June 30th, 2022)">7.890</PartnerPrice>
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158"/>
