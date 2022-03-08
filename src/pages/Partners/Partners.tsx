@@ -6,7 +6,6 @@ import {ImageSection} from '../../components/ImageSection/ImageSection';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
 import VideoSource from '../../components/Jumbotron/VideoSource';
 import {useCanPlayVideoType} from '../../core/hooks/UseCanPlayVideoType';
-import Link from "../../components/Link/Link";
 import {Figure} from "../../components/Figure/Figure";
 import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
 import {PartnerPrice, PartnerPriceList} from "../../components/PartnerPrices/PartnerPrices";
@@ -25,13 +24,10 @@ export function PartnersPage() {
                 <p>
                     In 2019, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
                 </p>
-                <p>
-                    Despite the difficulties with JavaZone 2021, we hope that we can arrange a JavaZone with no limitations this year, and that we can meet up in Oslo Spektrum in September for the best JavaZone ever! If you signed up for a JavaZone partnership in 2021, you should have received an email regarding the next steps for confirming your partnership for this year. <Link color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">You can also sign up here</Link>
-                </p>
             </Section>
             <Section color="blue" header={<h1>Registration</h1>}>
                 <p>
-                Despite the difficulties with JavaZone 2021, we hope that we can arrange a JavaZone with no limitations this year, and that we can meet up in Oslo Spektrum in September for the best JavaZone ever! If you signed up for a JavaZone partnership in 2021, you should reveive an email regarding the next steps for confirming your partnership for this year. You can also sign up for partnership on this <a href="https://forms.gle/Nkpeghsaec1gyMLs5">Google form</a> (If you weren't a partner in 2020, please sign up using this form as well)
+                    Despite the difficulties with JavaZone 2021, we hope that we can arrange a JavaZone with no limitations this year, and that we can meet up in Oslo Spektrum in September for the best JavaZone ever! If you signed up for a JavaZone partnership in 2021, you should reveive an email regarding the next steps for confirming your partnership for this year. You can also sign up for partnership on this <InlineLink color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">Google form</InlineLink> (If you weren't a partner in 2020, please sign up using this form as well)
                 </p>
             </Section>
             <Section color="blue" header={<h1>Our philosophy: Partners, not sponsors</h1>}>
@@ -97,7 +93,7 @@ export function PartnersPage() {
             </Section>
             <Figure name="ragnar"/>
             <CenterSection color="blue" header={<h1>Partnership prices</h1>}>
-                <TicketPrice soldOut>82.000</TicketPrice>
+                <TicketPrice>82.000</TicketPrice>
                 <p>
                     <i>Note that all 50+ partnerships for JavaZone 2019 were sold out long before the conference.</i>
                 </p>
