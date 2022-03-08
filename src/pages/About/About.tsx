@@ -29,7 +29,7 @@ export function AboutUsPage() {
                 </p>
                 <ul>
                     <li><em>Leader</em> – <InlineLink color="green" external url="mailto:javazone@java.no">javazone@java.no</InlineLink> – Anders Karlsen</li>
-                    <li><em>Program Committee</em> – <InlineLink color="green" external url="mailto:program@java.no">program@java.no</InlineLink> – Jan Erik Robertsen</li>
+                    <li><em>Program Committee</em> – <InlineLink color="green" external url="mailto:program@java.no">program@java.no</InlineLink> – Marek Machnik</li>
                     <li><em>Partners</em> – <InlineLink color="green" external url="mailto:partner@java.no">partner@java.no</InlineLink> – Gareth Western</li>
                     <li><em>Volunteers</em> – <InlineLink color="green" external url="mailto:student@java.no">student@java.no</InlineLink> – Livar Bergheim</li>
                 </ul>
