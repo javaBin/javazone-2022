@@ -81,7 +81,7 @@ export function SpeakersPage() {
             <Section color="pink" header={<h1>What’s in it for me?</h1>}>
                 <h3>Accepted presentations, lightning talks, and workshops</h3>
                 <p>
-                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on December 6th.
+                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on September 5th.
                 </p>
                 <h3>Coverage of Expenses</h3>
                 <p>
