@@ -14,7 +14,7 @@ export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
-            <VikingBanner header="Partner love" subHeader="December 7th - 8th 2022"/>
+            <VikingBanner header="Partner love" subHeader="September 7th - 8th 2022"/>
             <CenterSection color="blue" header={<h1>JavaZone 2022: Bigger and better than ever</h1>}>
                 <p>
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!

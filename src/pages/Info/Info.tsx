@@ -8,7 +8,7 @@ import {Figure} from "../../components/Figure/Figure";
 export function InfoPage() {
     return (
         <>
-            <VikingBanner header="Another year, another JavaZone!" subHeader="December 8-9th"/>
+            <VikingBanner header="Another year, another JavaZone!" subHeader="September 7-8th"/>
             <Section color="pink" header={<h1>JavaZone 101 the who, what and where</h1>}>
                 <p>
                     JavaZone – the biggest European community-driven conference for modern developers will be 21 years old in 2022! Don’t miss out on two days of inspiring tech talks, a day of hands-on sessions, mingling, and a great party!
