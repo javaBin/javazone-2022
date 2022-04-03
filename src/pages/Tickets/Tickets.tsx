@@ -5,8 +5,6 @@ import {ImageSection} from '../../components/ImageSection/ImageSection';
 import {Section} from '../../components/Section/Section';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
 import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
-import {Figure} from "../../components/Figure/Figure";
-import Link from "../../components/Link/Link";
 
 export function TicketsPage() {
     return (
