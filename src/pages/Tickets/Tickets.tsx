@@ -10,7 +10,7 @@ export function TicketsPage() {
     return (
         <>
             <VikingBanner header="The Ticket Booth" subHeader="Come join us in Oslo, in September 7-8th, 2022"/>
-            <CenterSection color="green" header={<h1>Price</h1>}>
+            <CenterSection color="green" header={<h1>Price (ex VAT)</h1>}>
                 <TicketPrice>7.590</TicketPrice>
             </CenterSection>
             <Section color="green" header={<h1>What's included?</h1>}>
