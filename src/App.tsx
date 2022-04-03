@@ -20,6 +20,7 @@ import {useMounted} from "./core/hooks/UseMounted";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
+  {title: 'Tickets', url: '/tickets', show: true},
   {title: 'Speakers', url: '/speakers', show: true},
   {title: 'Partners', url: '/partners', show: true},
   {title: 'About', url: '/about', show: true},
