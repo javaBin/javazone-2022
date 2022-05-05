@@ -5,13 +5,18 @@ import {ImageSection} from '../../components/ImageSection/ImageSection';
 import {Section} from '../../components/Section/Section';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
 import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
+import Link from '../../components/Link/Link';
 
 export function TicketsPage() {
     return (
         <>
             <VikingBanner header="The Ticket Booth" subHeader="Come join us in Oslo, in September 7-8th, 2022"/>
             <CenterSection color="green" header={<h1>Price (ex VAT)</h1>}>
-                <TicketPrice>7.590</TicketPrice>
+                <TicketPrice>7.590</TicketPrice>            
+            </CenterSection>
+            <CenterSection>
+                <Link external color="pink" url="https://www.checkin.no/event/42615/javazone-2022">Buy ticket</Link>
+                <p>Note: This link will take you to the website of our ticket partner Checkin.</p>
             </CenterSection>
             <Section color="green" header={<h1>What's included?</h1>}>
                 <p>
@@ -32,20 +37,11 @@ export function TicketsPage() {
             <Section color="green" header={<h1>Did you have a ticket for JavaZone December 2021?</h1>}>
                 <p>
                     Because JavaZone in December did not turn out to be the event we all wanted and planned for we have
-                    decided from that ticket holders from that event will have priority to buy tickets.
+                    decided that tickets holders from 2021 will have a discount on tickets.
                 </p>
                 <p>
-                    If you had a ticket in December you should have received an emails with instructions on how to buy
-                    your ticket. If you are missing this email please contact us on javazone@java.no.
-                </p>
-                <p>
-                    To be guaranteed your prioritized ticket you need to buy it before May 1st.
-                </p>
-            </Section>
-            <Section color="green" header={<h1>I did not have a ticket in December, what about me?</h1>}>
-                <p>
-                    We will make additional tickets available in the start of May after the ticket holders from JavaZone
-                    2021 have had a chance to buy their tickets.
+                    If you had a ticket in December you should have received an email with instructions on how to claim this discount. 
+                    If you are missing this email please contact us on javazone@java.no.
                 </p>
             </Section>
             <Section color="green" header={<h1>Working for one of our partners?</h1>}>
