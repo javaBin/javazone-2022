@@ -14,10 +14,19 @@ export function TicketsPage() {
             <CenterSection color="green" header={<h1>Price (ex VAT)</h1>}>
                 <TicketPrice>7.590</TicketPrice>            
             </CenterSection>
+            <CenterSection color="green" header={<h1>Sold out</h1>}>
+                <p>For the moment we do not have any more tickets availible for sale. We might get some 
+                    more tickets availible later. Register on the waiting list below, and we will contact 
+                    you if more tickets become availible.
+                </p>
+                <Link external color="pink" url="https://docs.google.com/forms/d/e/1FAIpQLSfN-LmscLa1pYDW3XA0Lc_iQoi4LKgOtXWmkjsz4bb8r2cXGw/viewform?usp=sf_link">Register on waiting list</Link>
+            </CenterSection>
+            {/*
             <CenterSection>
                 <Link external color="pink" url="https://www.checkin.no/event/42615/javazone-2022">Buy ticket</Link>
                 <p>Note: This link will take you to the website of our ticket partner Checkin.</p>
             </CenterSection>
+            >*/}
             <Section color="green" header={<h1>What's included?</h1>}>
                 <p>
                     The tickets includes admission to JavaZone both days (September 7th and 8th). It also includes
