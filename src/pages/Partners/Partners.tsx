@@ -1,17 +1,14 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import {VikingBanner} from '../../components/PageBanner/PageBanner';
 import {CenterSection} from '../../components/CenterSection/CenterSection';
 import {Section} from '../../components/Section/Section';
 import {ImageSection} from '../../components/ImageSection/ImageSection';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
-import VideoSource from '../../components/Jumbotron/VideoSource';
-import {useCanPlayVideoType} from '../../core/hooks/UseCanPlayVideoType';
 import {Figure} from "../../components/Figure/Figure";
 import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
 import {PartnerPrice, PartnerPriceList} from "../../components/PartnerPrices/PartnerPrices";
 
 export function PartnersPage() {
-    const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
             <VikingBanner header="Partner love" subHeader="September 7th - 8th 2022"/>
@@ -21,46 +18,7 @@ but if you register your contact details on the Partnership Waiting List
 then we will be in touch if any opportunities arise.</p>
                 <p><InlineLink external color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">Register on waiting list here</InlineLink></p>
             </CenterSection>
-            { /*
-            <CenterSection color="blue" header={<h1>JavaZone 2022: Bigger and better than ever</h1>}>
-                <p>
-                    JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
-                </p>
-            </CenterSection>
-            <Section color="blue" header={<h1>Last four years: Completely. Sold. Out.</h1>}>
-                <p>
-                    In 2019, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
-                </p>
-            </Section>
-            <Section color="blue" header={<h1>Registration</h1>}>
-                <p>
-                    Despite the difficulties with JavaZone 2021, we hope that we can arrange a JavaZone with no limitations this year, and that we can meet up in Oslo Spektrum in September for the best JavaZone ever! If you signed up for a JavaZone partnership in 2021, you should reveive an email regarding the next steps for confirming your partnership for this year. You can also sign up for partnership on this <InlineLink external color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">Google form</InlineLink> (If you weren't a partner in 2021, please sign up using this form as well)
-                </p>
-            </Section>
-            <Section color="blue" header={<h1>Our philosophy: Partners, not sponsors</h1>}>
-                <p>
-                    We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2022! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
-                </p>
-            </Section>
-            <CenterSection color="blue" header={<h1>The Expo Area</h1>}>
-                <p>
-                    All our partner stands are traditionally located in the Expo Area, which is located in the center of the venue. During each break, the Expo is full of attendees. This is partly because we continuously serve food from the restaurant stands – throughout the day, and partly because of you – our partners – make this area one of the liveliest Expo Areas of any conference.
-                </p>
-                <p>
-                    Don‘t you believe us? Have a look for yourself! Our new partners are always surprised by the huge attention their stands receive in the Expo Area. We have put together a short 15-second timelapse from 2 hours of Expo time, showing both the flow of people during talks and in the breaks between talks. Yes, you get exposure to that many people, for a total of 20 hours!
-                </p>
-                <p>
-                    <i>The video below shows a time-lapse of the JavaZone 2018 event.</i>
-                </p>
-            </CenterSection>
-            <CenterSection>
-                <Suspense fallback={<img src="splash.jpg" alt="splash loading screen" />}>
-                    <video style={{width: '100%'}} muted controls id="backgroundLapse">
-                        <VideoSource canPlayWebm={canPlayWebm} oldTimelapse={true} />
-                        Your browser does not support HTML5 video.
-                    </video>
-                </Suspense>
-    </CenterSection>*/}
+            
             <Section color="blue" header={<h1>Partner Options</h1>}>
                 <p>
                     Even though all partners are considered equal, there are a few options to choose from. There is a base package that everyone gets, and then there are a few available expansions. Note that these expansions have limited availability.
