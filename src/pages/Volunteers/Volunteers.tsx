@@ -92,7 +92,7 @@ export function VolunteersPage() {
             </Section>
             <Section color="pink" header={<h1>Når må jeg søke?</h1>}>
                 <p>
-                    Søknadsfristen er 3. juni
+                    Søknadsfristen er 12. juni
                 </p>
             </Section>
             {/*<Section color="pink" header={<h1>Hvordan kan jeg tipse andre?</h1>}>
