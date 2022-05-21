@@ -15,6 +15,13 @@ export function PartnersPage() {
     return (
         <>
             <VikingBanner header="Partner love" subHeader="September 7th - 8th 2022"/>
+            <CenterSection color="blue" header={<h1>Sold out</h1>}>
+                <p>We are once again sold out for all JavaZone partnership packages,
+but if you register your contact details on the Partnership Waiting List
+then we will be in touch if any opportunities arise.</p>
+                <p><InlineLink external color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">Register on waiting list here</InlineLink></p>
+            </CenterSection>
+            { /*
             <CenterSection color="blue" header={<h1>JavaZone 2022: Bigger and better than ever</h1>}>
                 <p>
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
@@ -53,7 +60,7 @@ export function PartnersPage() {
                         Your browser does not support HTML5 video.
                     </video>
                 </Suspense>
-            </CenterSection>
+    </CenterSection>*/}
             <Section color="blue" header={<h1>Partner Options</h1>}>
                 <p>
                     Even though all partners are considered equal, there are a few options to choose from. There is a base package that everyone gets, and then there are a few available expansions. Note that these expansions have limited availability.
