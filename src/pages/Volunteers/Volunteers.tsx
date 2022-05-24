@@ -96,15 +96,12 @@ export function VolunteersPage() {
                 </p>
             </Section>
             <Section color="pink" header={<h1>Hvordan kan jeg tipse andre?</h1>}>
-                {/*
                 <p>
                     Lik og del gjerne en av våre poster i sosiale medier: 
-                    <InlineLink color="pink" external url="https://www.facebook.com/javazoneconference/posts/10159489050841605">Facebook</InlineLink>, 
-                    <InlineLink color="pink" external url="https://twitter.com/javazone/status/1452527596386848768">Twitter</InlineLink>, 
-                    <InlineLink color="pink" external url="https://www.linkedin.com/feed/update/urn:li:activity:6859197928922198016">LinkedIn</InlineLink>.
+                    <InlineLink color="pink" external url="https://www.facebook.com/javazoneconference/posts/10159875019396605">Facebook</InlineLink>, 
+                    <InlineLink color="pink" external url="https://twitter.com/javazone/status/1529136819719266307">Twitter</InlineLink>, 
+                    <InlineLink color="pink" external url="https://www.linkedin.com/feed/update/urn:li:activity:6934904913684541440">LinkedIn</InlineLink>.
                 </p>
-                */}
-                
                 <p>
                     Plakat: 
                         <InlineLink color="pink" external url='/jz22_frivillig_some.png'>liggende</InlineLink>, 
