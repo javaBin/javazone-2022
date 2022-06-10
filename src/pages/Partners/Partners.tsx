@@ -7,6 +7,10 @@ import {InlineLink} from '../../components/InlineLink/InlineLink';
 import {Figure} from "../../components/Figure/Figure";
 import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
 import {PartnerPrice, PartnerPriceList} from "../../components/PartnerPrices/PartnerPrices";
+import Link from "../../components/Link/Link";
+import Box from "../../components/Box/Box";
+import styles from './Partners.module.scss'
+import {partnerList} from "./PartnerList";
 
 export function PartnersPage() {
     return (
@@ -14,11 +18,23 @@ export function PartnersPage() {
             <VikingBanner header="Partner love" subHeader="September 7th - 8th 2022"/>
             <CenterSection color="blue" header={<h1>Sold out</h1>}>
                 <p>We are once again sold out for all JavaZone partnership packages,
-but if you register your contact details on the Partnership Waiting List
-then we will be in touch if any opportunities arise.</p>
-                <p><InlineLink external color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">Register on waiting list here</InlineLink></p>
+                    but if you register your contact details on the Partnership Waiting List
+                    then we will be in touch if any opportunities arise.</p>
+                <Link external color="blue" url="https://forms.gle/Nkpeghsaec1gyMLs5">Register on waiting list
+                    here</Link>
             </CenterSection>
-            
+
+            <div className={styles.partnerInfo}>
+                <h1 className={styles.partnerHeader}>Partners in 2022</h1>
+                <div className={styles.partnersContainer}>
+                    {partnerList.map(partner => {
+                        return <a key={partner.name} className={styles.partnerBlock} href={partner.homepageUrl}>
+                            <img className={styles.logo} alt={partner.name} src={partner.logoUrl}/>
+                        </a>
+                    })}
+                </div>
+            </div>
+
             <Section color="blue" header={<h1>Partner Options</h1>}>
                 <p>
                     Even though all partners are considered equal, there are a few options to choose from. There is a base package that everyone gets, and then there are a few available expansions. Note that these expansions have limited availability.
@@ -58,7 +74,13 @@ then we will be in touch if any opportunities arise.</p>
             </Section>
             <Figure name="ragnar"/>
             <CenterSection color="blue" header={<h1>Partnership prices</h1>}>
-                <TicketPrice>82.000</TicketPrice>
+                <TicketPrice soldOut>82.000</TicketPrice>
+                <Box>
+                    <h2>Sold out!</h2>
+                    Our partner packages for 2022 are now sold out.
+                    But if you would like to join the waiting list and stay informed of any changes to the 2021
+                    partnership possibilities then please register your contact details and partnership preferences
+                </Box>
                 <p>
                     <i>Note that all 50+ partnerships for JavaZone 2019 were sold out long before the conference.</i>
                 </p>

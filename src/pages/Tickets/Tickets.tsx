@@ -19,7 +19,7 @@ export function TicketsPage() {
                     more tickets availible later. Register on the waiting list below, and we will contact 
                     you if more tickets become availible.
                 </p>
-                <Link external color="pink" url="https://docs.google.com/forms/d/e/1FAIpQLSfN-LmscLa1pYDW3XA0Lc_iQoi4LKgOtXWmkjsz4bb8r2cXGw/viewform?usp=sf_link">Register on waiting list</Link>
+                <Link external color="green" url="https://docs.google.com/forms/d/e/1FAIpQLSfN-LmscLa1pYDW3XA0Lc_iQoi4LKgOtXWmkjsz4bb8r2cXGw/viewform?usp=sf_link">Register on waiting list</Link>
             </CenterSection>
             {/*
             <CenterSection>
