@@ -249,5 +249,10 @@ export const partnerList: Partner[] = [
         "homepageUrl": "https://mastercard.com",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/mastercard.svg",
         "name": "Mastercard Payment Services Norway AS"
-    }
+    },
+    {
+        "homepageUrl": "https://www.kodemaker.no",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/kodemaker.svg",
+        "name": "Kodemaker"
+    },
 ]
