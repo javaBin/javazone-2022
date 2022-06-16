@@ -255,4 +255,9 @@ export const partnerList: Partner[] = [
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/kodemaker.svg",
         "name": "Kodemaker"
     },
+    {
+        "homepageUrl": "https://www.variant.no",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/variant.svg",
+        "name": "Variant"
+    }
 ]
