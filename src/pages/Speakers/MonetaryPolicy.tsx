@@ -12,7 +12,7 @@ export function MonetaryPolicyPage() {
                     If your presentation or a workshop is accepted, you may apply for a refund for travel and accommodation. Read below to find out if you are eligible.
                 </p>
                 <p>
-                    Applications for speaker reimbursements <strong><em>must</em></strong> be submitted before the November 1st, 2022.
+                    Applications for speaker reimbursements <strong><em>must</em></strong> be submitted before the August 1st, 2022.
                 </p>
             </Section>
             <Section color="blue" header={<h1>How to Apply</h1>}>
@@ -23,7 +23,7 @@ export function MonetaryPolicyPage() {
                     In this mail, provide an estimate of your travel expenses and the days you will be visiting Oslo during the conference.
                 </p>
                 <p>
-                    Note that we refund a maximum of 1500 NOK a night for accommodation costs <strong><em>during</em></strong> the conference. We do not refund travel costs above the cost of a reasonably priced economy ticket.
+                    We have a deal with a hotel, so if you need accomondation, we will reserve a room for you. Please state in your application which days you are planning to stay. We do not refund travel costs above the cost of a reasonably priced economy ticket.
                 </p>
                 <p>
                     Please also note that we do not refund travel expenses for those holding lightning talks. However, speakers (including the ones holding lightning talks) will receive a free conference ticket.
