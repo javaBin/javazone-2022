@@ -259,5 +259,10 @@ export const partnerList: Partner[] = [
         "homepageUrl": "https://www.variant.no",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/variant.svg",
         "name": "Variant"
+    },
+    {
+        "homepageUrl": "https://www.dfindconsulting.no/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/dfind.svg",
+        "name": "Dfind"
     }
 ]
