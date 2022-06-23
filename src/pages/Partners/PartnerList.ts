@@ -264,5 +264,10 @@ export const partnerList: Partner[] = [
         "homepageUrl": "https://www.dfindconsulting.no/",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/dfind.svg",
         "name": "Dfind"
+    },
+    {
+        "homepageUrl": " https://www.postennorge.no/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/postenbring.svg",
+        "name": "Posten Bring"
     }
 ]
