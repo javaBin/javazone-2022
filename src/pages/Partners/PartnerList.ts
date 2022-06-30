@@ -176,9 +176,9 @@ export const partnerList: Partner[] = [
         "name": "Bouvet Norge AS"
     },
     {
-        "homepageUrl": "https://www.sonat.no/",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/sonat.svg",
-        "name": "Sonat Consulting Oslo"
+        "homepageUrl": "https://computas.com/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/computas.svg",
+        "name": "Computas"
     },
     {
         "homepageUrl": "https://www.gjensidige.no/",
