@@ -37,7 +37,7 @@ export const partnerList: Partner[] = [
     },
     {
         "homepageUrl": "https://www.techpros.no",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/techpros-v2.png",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/techpros.svg",
         "name": "TECHPROS"
     },
     {
