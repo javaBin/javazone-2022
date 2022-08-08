@@ -18,6 +18,8 @@ import {BuyTicketsPage} from "./pages/Tickets/BuyTicketsPage";
 import {useLocation} from "react-router";
 import {useMounted} from "./core/hooks/UseMounted";
 import {VolunteersPage} from "./pages/Volunteers/Volunteers";
+import {ProgramPage} from "./pages/Program/ProgramPage";
+import {SessionPage} from "./pages/SessionPage/SessionPage";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
@@ -57,6 +59,8 @@ function App() {
           <Route path="/info" element={<InfoPage/>} />
           <Route path="/tickets" element={<TicketsPage/>} />
           <Route path="/tickets/buy" element={<BuyTicketsPage/>} />
+          <Route path="/program" element={<ProgramPage/>} />
+          <Route path="/program/:sessionId" element={<SessionPage/>} />
           <Route path="/speakers" element={<SpeakersPage/>} />
           <Route path="/speakers/tips" element={<SpeakerTipsPage/>} />
           <Route path="/speakers/monetary-policy" element={<MonetaryPolicyPage/>} />
