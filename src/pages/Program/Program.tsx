@@ -165,7 +165,7 @@ function FormatFilter(props: {
 }
 
 export function Program() {
-    const {data} = useFetch<ProgramData | undefined>("https://sleepingpill.javazone.no/public/allSessions/javazone_2019")
+    const {data} = useFetch<ProgramData | undefined>("https://sleepingpill.javazone.no/public/allSessions/javazone_2022")
     const [favorites, setFavorites] = useLocalStorage<string[]>('fav', [])
 
     const sessions = data && data.sessions.filter(s => s.format !== "workshop")

@@ -13,7 +13,7 @@ const colors: ColorChoices[] = ['pink', 'blue', 'green']
 export type ColorChoices = 'pink' | 'blue' | 'green';
 
 export function SessionPage() {
-    const {status, data} = useFetch<ProgramData>("https://sleepingpill.javazone.no/public/allSessions/javazone_2019")
+    const {status, data} = useFetch<ProgramData>("https://sleepingpill.javazone.no/public/allSessions/javazone_2022")
     const {sessionId} = useParams()
 
     const session = data && data.sessions.find(s => s.id === sessionId)

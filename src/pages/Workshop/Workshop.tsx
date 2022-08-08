@@ -42,7 +42,7 @@ function Sessions(props: {data: [SessionsData]}){
 }
 
 export function Workshop() {
-    const {data} = useFetch<ProgramData>("https://sleepingpill.javazone.no/public/allSessions/javazone_2019")
+    const {data} = useFetch<ProgramData>("https://sleepingpill.javazone.no/public/allSessions/javazone_2022")
 
     return <div className={styles.container}>
         {!!data && <Sessions data={data.sessions}/>}
