@@ -20,10 +20,15 @@ import {useMounted} from "./core/hooks/UseMounted";
 import {VolunteersPage} from "./pages/Volunteers/Volunteers";
 import {ProgramPage} from "./pages/Program/ProgramPage";
 import {SessionPage} from "./pages/SessionPage/SessionPage";
+import {WorkshopPage} from "./pages/Workshop/WorkshopPage";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
   {title: 'Tickets', url: '/tickets', show: true},
+  // {title: 'Program', url: '/program', show: true},
+  // {title: 'Program', url: '/program/:sessionId', show: false},
+  // {title: 'Workshops', url: '/workshops', show: true},
+  // {title: 'Workshops', url: '/workshops/:sessionId', show: false},
   {title: 'Speakers', url: '/speakers', show: true},
   {title: 'Partners', url: '/partners', show: true},
   {title: 'Frivillig', url: '/volunteers', show: true},
@@ -60,7 +65,9 @@ function App() {
           <Route path="/tickets" element={<TicketsPage/>} />
           <Route path="/tickets/buy" element={<BuyTicketsPage/>} />
           <Route path="/program" element={<ProgramPage/>} />
+          <Route path="/workshops" element={<WorkshopPage/>} />
           <Route path="/program/:sessionId" element={<SessionPage/>} />
+          <Route path="/workshops/:sessionId" element={<SessionPage/>} />
           <Route path="/speakers" element={<SpeakersPage/>} />
           <Route path="/speakers/tips" element={<SpeakerTipsPage/>} />
           <Route path="/speakers/monetary-policy" element={<MonetaryPolicyPage/>} />
