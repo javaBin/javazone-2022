@@ -33,6 +33,9 @@ function Sessions(props: {data: [SessionsData]}){
             if (a.startTime && b.startTime && a.startTime < b.startTime) {
                 return -1
             }
+            if (a.length > b.length){
+                return -1
+            }
             return 1
         })
 
