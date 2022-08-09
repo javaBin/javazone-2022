@@ -26,7 +26,7 @@ const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
   {title: 'Tickets', url: '/tickets', show: true},
   // {title: 'Program', url: '/program', show: true},
-  // {title: 'Program', url: '/program/:sessionId', show: false},
+  {title: 'Program', url: '/program/:sessionId', show: false},
   {title: 'Workshops', url: '/workshops', show: true},
   {title: 'Workshops', url: '/workshops/:sessionId', show: false},
   {title: 'Speakers', url: '/speakers', show: true},

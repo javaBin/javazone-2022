@@ -48,8 +48,8 @@ const times = [
     '18:20',
 ]
 
-const wednesday = '2022-07-09'
-const thursday = '2022-08-09'
+const wednesday = '2022-09-07'
+const thursday = '2022-09-08'
 
 
 function TimeSlots(props: { sessions: SessionsData[], favorites: string[], setFavorites: (value: string[]) => void }) {
