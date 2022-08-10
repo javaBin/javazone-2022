@@ -6,7 +6,7 @@ import {Workshop} from "./Workshop";
 export function WorkshopPage(){
     return (
         <>
-            <VikingBanner header="JavaZone Workshops 2022" subHeader="Find you workshop" />
+            <VikingBanner header="JavaZone Workshops 2022" subHeader="Find your workshop" />
             <CenterSection color="blue">
                 <Workshop/>
             </CenterSection>
