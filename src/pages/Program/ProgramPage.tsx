@@ -6,7 +6,7 @@ import {CenterSection} from "../../components/CenterSection/CenterSection";
 export function ProgramPage(){
     return (
         <>
-            <VikingBanner header="JavaZone Program 2021" subHeader="Find you favorite talks" />
+            <VikingBanner header="JavaZone Program 2022" subHeader="Find you favorite talks" />
             <CenterSection color="blue">
                 <Program/>
             </CenterSection>
