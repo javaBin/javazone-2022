@@ -92,7 +92,8 @@ export function VolunteersPage() {
             </Section>
             <Section color="pink" header={<h1>Når må jeg søke?</h1>}>
                 <p>
-                    Søknadsfristen er 12. juni
+                    <del>Søknadsfristen er 12. juni.</del><br/>
+                    Vi tar imot flere søknader om å bli frivillig.
                 </p>
             </Section>
             <Section color="pink" header={<h1>Hvordan kan jeg tipse andre?</h1>}>
