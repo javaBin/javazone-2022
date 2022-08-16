@@ -106,7 +106,7 @@ export function VolunteersPage() {
                 <p>
                     Plakat: 
                         <InlineLink color="pink" external url='/jz22_frivillig_some.png'>liggende</InlineLink>, 
-                        <InlineLink color="pink" external url='/jz22_frivillig_A4_printer.pdf'>stående (til utskrift)</InlineLink>
+                        <InlineLink color="pink" external url='/jz22_frivillig_A4.pdf'>stående (til utskrift)</InlineLink>
                 </p>            
             </Section>            
             
