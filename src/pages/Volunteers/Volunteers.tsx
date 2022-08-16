@@ -99,9 +99,9 @@ export function VolunteersPage() {
             <Section color="pink" header={<h1>Hvordan kan jeg tipse andre?</h1>}>
                 <p>
                     Lik og del gjerne en av våre poster i sosiale medier: 
-                    <InlineLink color="pink" external url="https://www.facebook.com/javazoneconference/posts/10159875019396605">Facebook</InlineLink>, 
-                    <InlineLink color="pink" external url="https://twitter.com/javazone/status/1529136819719266307">Twitter</InlineLink>, 
-                    <InlineLink color="pink" external url="https://www.linkedin.com/feed/update/urn:li:activity:6934904913684541440">LinkedIn</InlineLink>.
+                    <InlineLink color="pink" external url="https://www.facebook.com/javazoneconference/posts/pfbid02kvYPb6m3FkqPbtiexsA6MYDPyNkXDoTv5eaQ9ugRJoRoUitLgQmwJwUdYneRLaswl">Facebook</InlineLink>, 
+                    <InlineLink color="pink" external url="https://twitter.com/javazone/status/1559618872998871041">Twitter</InlineLink>, 
+                    <InlineLink color="pink" external url="https://www.linkedin.com/feed/update/urn:li:share:6965354996812910592">LinkedIn</InlineLink>.
                 </p>
                 <p>
                     Plakat: 
