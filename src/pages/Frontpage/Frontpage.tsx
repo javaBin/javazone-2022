@@ -5,6 +5,7 @@ export function FrontPage() {
     return (
         <>
             <Jumbotron title="JavaZone"
+                       location="Oslo Spektrum"
                        subTitle="September 7th - 8th 2022"/>
         </>
     )
