@@ -18,6 +18,7 @@ import {BuyTicketsPage} from "./pages/Tickets/BuyTicketsPage";
 import {useLocation} from "react-router";
 import {useMounted} from "./core/hooks/UseMounted";
 import {VolunteersPage} from "./pages/Volunteers/Volunteers";
+import {KidsPage} from "./pages/Kids/Kids";
 import {ProgramPage} from "./pages/Program/ProgramPage";
 import {SessionPage} from "./pages/SessionPage/SessionPage";
 import {WorkshopPage} from "./pages/Workshop/WorkshopPage";
@@ -32,11 +33,12 @@ const routes: NavRoute[] = [
   {title: 'Speakers', url: '/speakers', show: true},
   {title: 'Partners', url: '/partners', show: true},
   {title: 'Frivillig', url: '/volunteers', show: true},
+  {title: 'Kids', url: '/kids', show: true},
   {title: 'About', url: '/about', show: true},
   {title: 'Cookies', url: '/privacy-cookies', show: false},
   {title: 'Tips for Speakers', url: '/speakers/tips', show: false},
   {title: 'Monetary Policy', url: '/speakers/monetary-policy', show: false},
-  
+
 ];
 
 
@@ -73,9 +75,10 @@ function App() {
           <Route path="/speakers/monetary-policy" element={<MonetaryPolicyPage/>} />
           <Route path="/partners" element={<PartnersPage/>} />
           <Route path="/volunteers" element={<VolunteersPage/>} />
+          <Route path="/kids" element={<KidsPage/>} />
           <Route path="/about" element={<AboutUsPage/>} />
           <Route path="/privacy-cookies" element={<CookieInfoPage/>} />
-          
+
           <Route path="*" element={<NotFoundPage/>} />
         </Routes>
         <Footer routes={routes} />
