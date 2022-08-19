@@ -66,7 +66,7 @@ export function KidsPage() {
 
             <CenterSection color="green" header={<h1>Kurser (Påmelding åpner 23. aug kl. 12:00)</h1>}/>
             <Section color="green" header={<h1>Micro:bit programmering</h1>}>
-                <h3>Presented by Bjørn Hamre</h3>
+                <h3>Presentert av Bjørn Hamre</h3>
                 <p>
                     Micro:bit er en liten datamaskin som er laget for å lære barn å programmere.
                     Den kan programmeres både med blokker som i Scratch, eller med tekstbaserte språk som Python og
@@ -75,16 +75,15 @@ export function KidsPage() {
                     kontrollere.
                 </p>
                 <p>
-                    <strong>Utstyr:</strong> Ta med din egen laptop, den trenger en USB-A bukse slik at du kan koble til
-                    Micro:bit
-                    som vi stiller.
+                    <strong>Utstyr:</strong> Ta med din egen laptop, den trenger en USB-A port slik at du kan koble til
+                    Micro:bit som vi stiller med.
                 </p>
                 <p>
                     Anbefallt alder: 10+ år
                 </p>
             </Section>
             <Section color="green" header={<h1>p5.js programmering</h1>}>
-                <h3>Presented by Sigmund Hansen</h3>
+                <h3>Presentert av Sigmund Hansen</h3>
                 <p>
                     P5.js gjør det enkelt å komme i gang med å programmere grafikk og lyd nettleseren.
                     Det er basert på Processing, men er laget for Javaskript, som nettlesere kan kjøre.
@@ -101,7 +100,7 @@ export function KidsPage() {
                 </p>
             </Section>
             <Section color="green" header={<h1>VR programmering</h1>}>
-                <h3>Presented by Anuradha Sridharan</h3>
+                <h3>Presentert av Anuradha Sridharan</h3>
                 <p>
                     Virtuell virkelighet er et simulert 3D-miljø som gjør det mulig for brukere å utforske og samhandle
                     med en virtuell omgivelse på en måte som tilnærmer virkeligheten, slik den oppfattes gjennom
