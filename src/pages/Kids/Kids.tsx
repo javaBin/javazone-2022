@@ -12,7 +12,7 @@ export function KidsPage() {
             <Section color="pink" header={<h1>Tre sesjoner: en smakebit på voksenlivet</h1>}>
                 <p>
                     JavaZone inviterer alle, og spesielt deltakere på JavaZone, til å ta med seg sine barn
-                    på <strong><em> Rebel –
+                    til <strong><em> Rebel –
                     søndag 4. september</em></strong>. <br/>
                     For å gi dem en smakebit på voksenlivet. Vi kjører 3 parallelle sesjoner:
                 </p>
@@ -64,7 +64,7 @@ export function KidsPage() {
             </Section>
 
 
-            <CenterSection color="green" header={<h1>Kurser (Påmelding åpner 23. aug kl. 12:00)</h1>}/>
+            <CenterSection color="green" header={<h1>Kurs (Påmelding åpner 23. aug kl. 12:00)</h1>}/>
             <Section color="green" header={<h1>Micro:bit programmering</h1>}>
                 <h3>Presentert av Bjørn Hamre</h3>
                 <p>
