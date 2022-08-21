@@ -156,9 +156,9 @@ export const partnerList: Partner[] = [
         "name": "Tripletex"
     },
     {
-        "homepageUrl": "https://www.politiet.no/en/om/organisasjonen/andre/police-ict-services/",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/politiet.svg",
-        "name": "Politiets IKT-tjenester"
+        "homepageUrl": "https://www.politiet.no/om/organisasjonen/sarorganene/pit/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/politiet.svg",
+        "name": "Politiets IT-enhet"
     },
     {
         "homepageUrl": "https://www.oslo.kommune.no/",
