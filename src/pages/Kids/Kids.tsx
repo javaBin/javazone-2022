@@ -3,6 +3,7 @@ import {VikingBanner} from '../../components/PageBanner/PageBanner';
 import {Section} from '../../components/Section/Section';
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 import {Figure} from "../../components/Figure/Figure";
+import Link from '../../components/Link/Link';
 
 export function KidsPage() {
     return (
@@ -79,8 +80,9 @@ export function KidsPage() {
                     Micro:bit som vi stiller med.
                 </p>
                 <p>
-                    Anbefallt alder: 10+ år
+                    Anbefalt alder: 10+ år
                 </p>
+                <p><Link external url="https://moosehead.javazone.no/#/register/kidsmicro" color='pink'>Påmelding</Link></p>
             </Section>
             <Section color="green" header={<h1>p5.js programmering</h1>}>
                 <h3>Presentert av Sigmund Hansen</h3>
@@ -96,8 +98,9 @@ export function KidsPage() {
                     <strong>Utstyr:</strong> Ta med din egen laptop.
                 </p>
                 <p>
-                    Anbefallt alder: 12+ år
+                    Anbefalt alder: 12+ år
                 </p>
+                <p><Link external url="https://moosehead.javazone.no/#/register/kidsprosess" color='pink'>Påmelding</Link></p>
             </Section>
             <Section color="green" header={<h1>VR programmering</h1>}>
                 <h3>Presentert av Anuradha Sridharan</h3>
@@ -116,8 +119,9 @@ export function KidsPage() {
                     å se 3D-verdenen din. VR-briller vil være tilgjengelig for testing.
                 </p>
                 <p>
-                    Anbefallt alder: 10+ år
+                    Anbefalt alder: 10+ år
                 </p>
+                <p><Link external url="https://moosehead.javazone.no/#/register/kidsvr" color='pink'>Påmelding</Link></p>
             </Section>
             <Figure name="freya"/>
             <Section></Section>
