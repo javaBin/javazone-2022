@@ -107,7 +107,7 @@ export const partnerList: Partner[] = [
     },
     {
         "homepageUrl": "https://www.tietoevry.com/no/",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/tietoevry.svg",
+        "logoUrl": "https://javazone-assets.s3.eu-west-1.amazonaws.com/2022/logos/tietoevry.svg",
         "name": "TietoEVRY AS"
     },
     {
