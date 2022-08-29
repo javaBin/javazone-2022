@@ -7,7 +7,7 @@ interface Partner {
 export const partnerList: Partner[] = [
     {
         "homepageUrl": "https://www.digdir.no/",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/digidir.png",
+        "logoUrl": "https://javazone-assets.s3.eu-west-1.amazonaws.com/2022/logos/digdir.svg",
         "name": "Digitaliseringsdirektoratet"
     },
     {
