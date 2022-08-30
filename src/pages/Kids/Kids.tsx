@@ -65,7 +65,7 @@ export function KidsPage() {
             </Section>
 
 
-            <CenterSection color="green" header={<h1>Kurs (Påmelding åpner 23. aug kl. 12:00)</h1>}/>
+            <CenterSection color="green" header={<h1>Kurs</h1>}/>
             <Section color="green" header={<h1>Micro:bit programmering</h1>}>
                 <h3>Presentert av Bjørn Hamre</h3>
                 <p>
