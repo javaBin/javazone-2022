@@ -20,10 +20,11 @@ interface CenterSectionProps {
     header?: React.ReactNode;
     children?: React.ReactNode;
     color?: ColorChoices;
+    className?: string;
 }
 
 export function CenterSection(props: CenterSectionProps) {
-    const cls = classNames(styles.container, getColorCls(props.color))
+    const cls = classNames(styles.container, getColorCls(props.color), props.className)
     return (
         <>
             <div className={styles.section}>

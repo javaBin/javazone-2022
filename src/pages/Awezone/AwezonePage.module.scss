@@ -1,0 +1,23 @@
+@import '../../variables.scss';
+
+.section {
+    margin: 3rem 0;
+    width: 100%;
+    height: auto;
+    max-height: 40rem;
+    min-height: 30rem;
+    position: relative;
+    @media only screen and (max-width: $screen-sm) {
+        max-height: 15rem;
+        min-height: 10rem;
+    }
+    img {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+.twistCenter{
+    text-align: left;
+}
