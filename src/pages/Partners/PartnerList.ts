@@ -1,4 +1,4 @@
-interface Partner {
+export interface Partner {
     homepageUrl: string,
     logoUrl: string,
     name: string,

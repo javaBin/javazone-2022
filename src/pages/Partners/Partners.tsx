@@ -10,7 +10,26 @@ import {PartnerPrice, PartnerPriceList} from "../../components/PartnerPrices/Par
 import Link from "../../components/Link/Link";
 import Box from "../../components/Box/Box";
 import styles from './Partners.module.scss'
-import {partnerList} from "./PartnerList";
+import {Partner, partnerList} from "./PartnerList";
+
+//taken from
+function shuffle(array: Partner[]): Partner[] {
+    let currentIndex = array.length,  randomIndex;
+
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+
+    return array;
+}
 
 export function PartnersPage() {
     return (
@@ -27,7 +46,7 @@ export function PartnersPage() {
             <div className={styles.partnerInfo}>
                 <h1 className={styles.partnerHeader}>Partners in 2022</h1>
                 <div className={styles.partnersContainer}>
-                    {partnerList.map(partner => {
+                    {shuffle(partnerList).map(partner => {
                         return <a key={partner.name} className={styles.partnerBlock} href={partner.homepageUrl}>
                             <img className={styles.logo} alt={partner.name} src={partner.logoUrl}/>
                         </a>
