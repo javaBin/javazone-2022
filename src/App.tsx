@@ -31,7 +31,7 @@ const routes: NavRoute[] = [
   {title: 'Program', url: '/program/:sessionId', show: false},
   {title: 'Workshops', url: '/workshops', show: true},
   {title: 'Workshops', url: '/workshops/:sessionId', show: false},
-  {title: 'Awezone', url: '/awezone', show: false},
+  {title: 'Awezone', url: '/awezone', show: true},
   {title: 'Speakers', url: '/speakers', show: true},
   {title: 'Partners', url: '/partners', show: true},
   {title: 'Frivillig', url: '/volunteers', show: true},
