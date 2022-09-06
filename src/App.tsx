@@ -23,6 +23,7 @@ import {ProgramPage} from "./pages/Program/ProgramPage";
 import {SessionPage} from "./pages/SessionPage/SessionPage";
 import {WorkshopPage} from "./pages/Workshop/WorkshopPage";
 import {AwezonePage} from "./pages/Awezone/AwezonePage";
+import {FoodPage} from "./pages/Food/Food";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
@@ -40,6 +41,7 @@ const routes: NavRoute[] = [
   {title: 'Cookies', url: '/privacy-cookies', show: false},
   {title: 'Tips for Speakers', url: '/speakers/tips', show: false},
   {title: 'Monetary Policy', url: '/speakers/monetary-policy', show: false},
+  {title: 'Food menu', url: '/food', show: false},
 
 ];
 
@@ -81,6 +83,7 @@ function App() {
           <Route path="/kids" element={<KidsPage/>} />
           <Route path="/about" element={<AboutUsPage/>} />
           <Route path="/privacy-cookies" element={<CookieInfoPage/>} />
+          <Route path="/food" element={<FoodPage/>} />
 
           <Route path="*" element={<NotFoundPage/>} />
         </Routes>
