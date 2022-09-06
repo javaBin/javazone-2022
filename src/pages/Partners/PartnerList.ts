@@ -167,7 +167,7 @@ export const partnerList: Partner[] = [
     },
     {
         "homepageUrl": "https://www.webstep.no/",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/webstep.svg",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2022/logos/webstep.svg",
         "name": "Webstep AS"
     },
     {
