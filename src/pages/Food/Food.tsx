@@ -70,7 +70,7 @@ export function FoodPage() {
 
                     <p>
                         <b>Soft ice</b><br/>
-                        <span className={styles.allergies}>(milk, egg, mustard)</span>
+                        <span className={styles.allergies}>(milk, egg)</span>
                     </p>
                     <p>
                         With loads of different homemade toppings and served with a Belgian waffle<br/>
@@ -155,7 +155,7 @@ export function FoodPage() {
                     </p>
                     <p>
                         Grilled paprika, chickpeas and coconut “yoghurt”<br/>
-                        <span className={styles.allergies}>(milk, egg, mustard)</span>
+                        <span className={styles.allergies}>(sesame, mustard)</span>
                     </p>
                 </p>
             </Section>
